@@ -1,0 +1,91 @@
+:root {
+  --bs-font-sans-serif: "inter", system-ui, -apple-system, sans-serif;
+}
+@media (min-width: 992px) {
+  .fixed-sidebar {
+    position: fixed;
+    top: 100px;
+    height: 100vh; /* Only apply height when it's fixed */
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fdf4dc;
+}
+body {
+  background-color: #272541 !important;
+}
+p {
+  color: #808080;
+}
+.fixed-sidebar {
+  top: 100px;
+  overflow-y: auto;
+}
+.logos {
+  margin-left: 0; /* Reset for mobile */
+}
+
+@media (min-width: 992px) {
+  .logos {
+    margin-left: -25px;
+  }
+}
+
+.logos img {
+  margin-right: 15px;
+}
+
+@media (min-width: 992px) {
+  .logos img {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
+body {
+  background-color: #272541 !important;
+  overflow-x: hidden;
+}
+
+.stack-text {
+  color: #04b574;
+}
+
+.card {
+  background-color: #272541 !important;
+  color: #808080;
+  h5,
+  h6 {
+    color: #fdf4dc;
+  }
+
+  a {
+    color: #808080;
+    text-decoration: none;
+  }
+}
+.card:hover {
+  background-color: #3d3b57 !important;
+  color: #04b574;
+  h5,
+  h6 {
+    color: #04b574;
+  }
+}
+
+#projects {
+  margin-top: 80px;
+}
+
+#work-history {
+  margin-top: 120px;
+}
+.nav-active {
+  color: white !important;
+  margin-left: 10px;
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--added another meta name following a suggestion after checking page using Lighthouse-->
+    <meta name="Description" content="Richard Mackey CV" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <title>Richard Mackey</title>
+  </head>
+
+  <body>
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div class="col-12 col-lg-4 ms-lg-3 mb-4 mb-lg-0 fixed-sidebar">
+          <h2>Richard Mackey</h2>
+          <h5 class="lh-base">Junior full-stack web and software developer</h5>
+          <p>
+            I am just about to finish a course on full stack web and software
+            development, using:
+          </p>
+          <p>
+            Frontend: HTML/CSS, Javascript, Bootstrap, Thymeleaf, React, Axios,
+            Formik
+          </p>
+          <p>
+            Backend: Java, Spring Boot, JDBC, Express, JWT authentication,
+            MySQL, PostgreSQL, MongoDB, API integration.
+          </p>
+
+          <div class="mb-4">
+            <a href="#about" id="nav-about">About</a>
+          </div>
+          <div class="mb-4">
+            <a href="#projects" id="nav-projects">Projects</a>
+          </div>
+          <div class="mb-4">
+            <a href="#work-history" id="nav-work-history">Work History</a>
+          </div>
+          <div class="logos">
+            <a href="https://github.com/Richard-Mackey" target="_blank">
+              <img
+                src="github-mark-white.svg"
+                alt="github-logo"
+                style="width: 40px; height: 40px"
+              />
+            </a>
+
+            <a href="https://linkedin.com/in/richard-mackey" target="_blank">
+              <img
+                src="linkedin-square-white.png"
+                alt="linkedin-logo"
+                style="width: 40px; height: 40px"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- Narrower content, more gap -->
+        <div class="col-12 col-lg-6 offset-lg-5 pe-3 main-content">
+          <div id="about">
+            <div class="summary-content mb-5">
+              <p>
+                I originally trained as a PhD Chemist before becoming a science
+                teacher. After doing this for 15 years, I decided it was time
+                for a career change. I am currently learning full stack web and
+                sofware development though HyperionDev, and have really enjoyed
+                the hands on, project based approach.
+              </p>
+              <p>
+                When I am not doing work for the course, I also enjoy tinkering
+                with software projects and electronics using my Raspberry Pi,
+                including making sensors to monitor temperature and humidity,
+                and also making an LED display, programmable by either a linked
+                website that I created on my local network, or by a standard
+                remote control. I did this using SSH key-based authentication
+                for passwordless, secure remote access. This allowed me to work
+                on my laptop, use SCP to transfer the Python scripts, and then
+                run them on my remotely connnected Pi. I also remotely managed
+                the Python virtual environments.
+              </p>
+              <p>
+                To relax, I enjoy fell-running, playing guitar and piano or
+                curling up with a good book.
+              </p>
+              <p>Take a look at some of my projects below.</p>
+            </div>
+          </div>
+
+          <div id="projects">
+            <div class="card mb-5">
+              <a href="https://poisepms.onrender.com" target="_blank">
+                <div class="card-body">
+                  <h5 class="card-title text-center">PoisePMS</h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    A full stack web app
+                  </h6>
+                  <p class="card-text">
+                    A full-stack project management system, built for a
+                    fictional engineering company called Poise. It is a
+                    full-stack web application for managing construction
+                    projects, built with Java Spring Boot and PostgreSQL. This
+                    project demonstrates evolution from a console-based
+                    application to a modern web application with a focus on
+                    clean architecture and code reusability.
+                  </p>
+
+                  <p class="stack-text">
+                    Frontend built using: HTML/CSS/Bootstrap and Thymeleaf.
+                  </p>
+                  <p class="stack-text">
+                    Backend built using: Java, Spring Boot, Thymeleaf, JDBC and
+                    PostgreSQL.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mb-5">
+              <a
+                href="https://itunes-search-app-2.onrender.com"
+                target="_blank"
+              >
+                <div class="card-body">
+                  <h5 class="card-title text-center">iTunes search web app</h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    A full stack web app
+                  </h6>
+                  <p class="card-text">
+                    A full-stack web application, that allows a user to search
+                    the iTunes library across different media types (music,
+                    movies, podcasts, etc). Users can filter results using
+                    sidebar navigation, add and remove items to favourites. A
+                    responsive design with mobile optimised interface. Secure
+                    API access with JWT token authorisation.
+                  </p>
+                  <p>
+                    RESTful API design and CORS configuration for cross-origin
+                    requests.
+                  </p>
+
+                  <p class="stack-text">
+                    Frontend built using: React, React Router for single page
+                    app navigation, Axios for HTTP requests.
+                  </p>
+                  <p class="stack-text">
+                    Backend built using: Node.js with Express.js, JWT
+                    authentication middleware.
+                  </p>
+                  <p class="stack-text">
+                    External API: iTunes search API integration
+                  </p>
+                  <p class="stack-text">
+                    Styling: Bootstrap 5 for responsive design, custom CSS.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mb-5">
+              <a
+                href="https://event-manager-5mkp.onrender.com/"
+                target="_blank"
+              >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Event Planner</h5>
+                  <h6 class="card-subtitle mb-2 text-center">A web app</h6>
+                  <p class="card-text">
+                    A full-stack React application for personal event
+                    management. Users can register/login, create events with
+                    scheduling details, edit existing events, duplicate events
+                    for recurring schedules, and delete events with confirmation
+                    prompts.
+                  </p>
+                  <p>
+                    Login using a correct email format (e.g. John@smith.com) and
+                    a password containing at least one uppercase, one lowercase,
+                    one number and one special character (e.g. P@ssword1).
+                  </p>
+                  <p class="stack-text">
+                    Built using: React, React Router for single page app
+                    navigation, Formik for form handling and validation.
+                  </p>
+                  <p class="stack-text">
+                    Styling: Bootstrap 5 for responsive design, custom CSS.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div id="work-history">
+              <div class="card mb-5">
+                <a href="https://www.hyperiondev.com/" target="_blank">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">May 2025 - present</h5>
+                    <h6 class="card-subtitle mb-2 text-center">HyperionDev</h6>
+                    <p class="card-text">
+                      Full stack web and software development course
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <a href="https://hollingworthacademy.co.uk/" target="_blank">
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    September 2018- May 2025
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    Hollingworth Academy
+                  </h6>
+                  <p class="card-text">
+                    Teacher of science at a state funded school, teaching 11-16
+                    year olds. Responsible for devlivering a science curriculum,
+                    producing lesson resources, managing data, meeting with
+                    parents.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mb-5">
+              <a href="https://www.cromptonhouse.org/" target="_blank">
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    September 2016- September 2018
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    Crompton House School
+                  </h6>
+                  <p class="card-text">
+                    Head of chemistry at a state funded school, teaching 11-18
+                    year olds. In addition to teaching responsibilities, I was
+                    responsible for developing a new GCSE and A level Chemistry
+                    curriculum, in addition to line-managing 4 members of staff
+                    in the Chemistry department, being being responsible for the
+                    practical componenets, and the final exam results.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mb-5">
+              <a href="https://www.blue-coat.org/" target="_blank">
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    September 2011- September 2016
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    The Blue-Coat School
+                  </h6>
+                  <p class="card-text">
+                    Teacher of Chemistry and Applied Science, before becoming
+                    head of Applied Science. Responsible for teaching 11-18
+                    years olds in a state funded school.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mb-5">
+              <a
+                href="https://www.humanities.manchester.ac.uk/education/"
+                target="_blank"
+              >
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    September 2010- September 2011
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    The University of Manchester
+                  </h6>
+                  <p class="card-text">
+                    Post Graduate Certificate of Education.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card mb-5">
+              <a
+                href="https://livrepository.liverpool.ac.uk/3061734/"
+                target="_blank"
+              >
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    September 2007- September 2010
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    The University of Liverpool
+                  </h6>
+                  <p class="card-text">
+                    PhD in Chemistry. Studied the catalytic properties of a
+                    class of materials called 'layered double hydroxides'. This
+                    involved working at the interface between the three main
+                    branches of chemistry: Organic in the studying of test
+                    reactions, inorganic in the making of the catalytic
+                    materials and physical in terms of their characterisation,
+                    and understanding the catalytic processes at work.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
