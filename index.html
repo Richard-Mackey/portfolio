@@ -31,14 +31,10 @@
       <div class="row">
         <div class="col-12 col-lg-4 ms-lg-3 mb-4 mb-lg-0 fixed-sidebar">
           <h2>Richard Mackey</h2>
-          <h5 class="lh-base">Junior full-stack web and software developer</h5>
+          <h5 class="lh-base">Full-stack web and software developer</h5>
           <p>
-            I am just about to finish a course on full stack web and software
-            development, using:
-          </p>
-          <p>
-            Frontend: HTML/CSS, Javascript, Bootstrap, Thymeleaf, React, Axios,
-            Formik
+            Frontend: HTML/CSS, React, Javascript, Bootstrap, Thymeleaf, Axios,
+            Formik.
           </p>
           <p>
             Backend: Java, Spring Boot, JDBC, Express, JWT authentication,
@@ -80,21 +76,29 @@
               <p>
                 I originally trained as a PhD Chemist before becoming a science
                 teacher. After doing this for 15 years, I decided it was time
-                for a career change. I am currently learning full stack web and
-                sofware development though HyperionDev, and have really enjoyed
-                the hands on, project based approach.
+                for a career change. I have recently completed a full stack web
+                and sofware development course though HyperionDev, and really
+                enjoyed the hands on, project based approach.
               </p>
               <p>
-                When I am not doing work for the course, I also enjoy tinkering
-                with software projects and electronics using my Raspberry Pi,
-                including making sensors to monitor temperature and humidity,
-                and also making an LED display, programmable by either a linked
-                website that I created on my local network, or by a standard
-                remote control. I did this using SSH key-based authentication
-                for passwordless, secure remote access. This allowed me to work
-                on my laptop, use SCP to transfer the Python scripts, and then
-                run them on my remotely connnected Pi. I also remotely managed
-                the Python virtual environments.
+                In my spare time, I also enjoy tinkering with Python based
+                software and electronics projects using my Raspberry Pi,
+                including connecting sensors to monitor temperature and
+                humidity, building an SQLite database to store the data and then
+                connecting my laptop to download the data and display it on a
+                locally hosted site using Chart.js.
+              </p>
+              <p>
+                I have also made programmable LED displays, by either a linked
+                website, created on my local network, or by a standard remote
+                control.
+              </p>
+              <p>
+                I did these projects using SSH key-based authentication for
+                passwordless, secure remote access. This allowed me to work on
+                my laptop, use SCP to transfer the Python scripts, and then run
+                them on my remotely connnected Pi. I also remotely managed the
+                Python virtual environments.
               </p>
               <p>
                 To relax, I enjoy fell-running, playing guitar and piano or
@@ -109,6 +113,30 @@
           </div>
 
           <div id="projects">
+            <div class="card mb-5">
+              <a
+                href="https://richard-weather-app.up.railway.app/"
+                target="_blank"
+              >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Weather App</h5>
+                  <h6 class="card-subtitle mb-2 text-center">
+                    A full stack weather forcasting and historical data app
+                  </h6>
+                  <p class="card-text">
+                    A weather application using the OpenWeather API to search
+                    for current forecasts worldwide and store historical weather
+                    data for selected locations. Containerised with Docker and
+                    deployed using CI/CD pipelines.
+                  </p>
+
+                  <p class="stack-text">Frontend: React</p>
+                  <p class="stack-text">
+                    Backend: Java, Spring Boot, Maven, PostgreSQL
+                  </p>
+                </div>
+              </a>
+            </div>
             <div class="card mb-5">
               <a
                 href="https://poisepms-production.up.railway.app/projects"
